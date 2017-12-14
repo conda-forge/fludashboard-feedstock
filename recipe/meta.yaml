@@ -1,6 +1,6 @@
 {% set name = "fludashboard" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "824d099574c5e13f9907eaa3f07b907e6dac2f63713b413bb8b7e310efafe1be" %}
+{% set version = "0.3.3" %}
+{% set sha256 = "f19e5a9384503d22d69efb7c942a5dd020856fc7654919155d6b82dbb3a62b2b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: true  # [win or py2k]
+  skip: true  # [py2k]
 
 requirements:
   build:
@@ -26,8 +26,9 @@ requirements:
     - numpy >=1.12
     - flask
     - unidecode
-    - click
-    - gunicorn
+    - psycopg2
+    - sqlalchemy
+    - pyyaml
 
 test:
   imports:
