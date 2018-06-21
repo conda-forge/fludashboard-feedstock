@@ -21,15 +21,15 @@ requirements:
     - setuptools
     - pip
   run:
-    - python >= 3.6
-    - pandas >= 0.21
+    - python >=3.6
+    - pandas >=0.21
     - numpy >=1.12
     - flask
     - unidecode
     - psycopg2
     - sqlalchemy
     - pyyaml
-    - plotly == 2.5.1
+    - plotly 2.5.1
     - ipython
     - cufflinks
 
