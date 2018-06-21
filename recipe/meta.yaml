@@ -29,7 +29,7 @@ requirements:
     - psycopg2
     - sqlalchemy
     - pyyaml
-    - cufflinks
+    - cufflinks-py
     - plotly 2.5.1
     - ipython
 
