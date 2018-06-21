@@ -17,7 +17,7 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - setuptools
     - pip
   run:
@@ -29,9 +29,9 @@ requirements:
     - psycopg2
     - sqlalchemy
     - pyyaml
+    - cufflinks
     - plotly 2.5.1
     - ipython
-    - cufflinks
 
 test:
   imports:
