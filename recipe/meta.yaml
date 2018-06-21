@@ -1,6 +1,6 @@
 {% set name = "fludashboard" %}
-{% set version = "0.3.3" %}
-{% set sha256 = "f19e5a9384503d22d69efb7c942a5dd020856fc7654919155d6b82dbb3a62b2b" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "03dfdcc7b3817234855166490bde38d75313ac45579c226b0fc9bca0848f745a" %}
 
 package:
   name: {{ name|lower }}
@@ -21,14 +21,17 @@ requirements:
     - setuptools
     - pip
   run:
-    - python
-    - pandas
+    - python >= 3.6
+    - pandas >= 0.21
     - numpy >=1.12
     - flask
     - unidecode
     - psycopg2
     - sqlalchemy
     - pyyaml
+    - plotly == 2.5.1
+    - ipython
+    - cufflinks
 
 test:
   imports:
