@@ -23,9 +23,9 @@ the Brazilian Ministry of Health (GT-Influenza, SVS, MS).
 Current build status
 ====================
 
-![Linux disabled](https://img.shields.io/badge/linux-disabled-lightgrey.svg)
-![OSX disabled](https://img.shields.io/badge/OSX-disabled-lightgrey.svg)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/fludashboard-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/fludashboard-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/fludashboard-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/fludashboard-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/fludashboard-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/fludashboard-feedstock/branch/master)
 
 Current release info
 ====================
