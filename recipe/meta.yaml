@@ -17,11 +17,11 @@ build:
 
 requirements:
   build:
-    - python >=3.5
+    - python
     - setuptools
     - pip
   run:
-    - python >=3.5
+    - python
     - pandas >=0.21
     - numpy >=1.12
     - flask
