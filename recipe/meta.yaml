@@ -11,17 +11,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: true  # [py2k]
+  skip: true  # [py2k or py34 or win]
 
 requirements:
   build:
-    - python >=3.5
+    - python
     - setuptools
     - pip
   run:
-    - python >=3.5
+    - python
     - pandas >=0.21
     - numpy >=1.12
     - flask
